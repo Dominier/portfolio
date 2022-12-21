@@ -1,0 +1,31 @@
+body {
+    background-color: #20190a;
+    color:#faedde;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d44e45;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #faedde;
+}
+
+li a {
+    display: block;
+    color: #faedde;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: burlywood;
+}
+
