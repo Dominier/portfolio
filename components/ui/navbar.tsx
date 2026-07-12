@@ -16,13 +16,13 @@ export const NavigationBar = () => {
                 </div>
                 <div className="flex gap-2 items-center">
                     <Link href="mailto:tleprojectcs@gmail.com" className="p-2 rounded-full hover:bg-white/60 hover:shadow-sm hover:-translate-y-0.5 transition-all opacity-80 hover:opacity-100">
-                        <Image src="/email.svg" alt="email icon" width={20} height={20} />
+                        <Image src="./email.svg" alt="email icon" width={20} height={20} />
                     </Link>
                     <Link href="https://www.linkedin.com/in/timothy-le-cs/" target="_blank" className="p-2 rounded-full hover:bg-white/60 hover:shadow-sm hover:-translate-y-0.5 transition-all opacity-80 hover:opacity-100">
-                        <Image src="/linkedin.svg" alt="linkedin icon" width={20} height={20} />
+                        <Image src="./linkedin.svg" alt="linkedin icon" width={20} height={20} />
                     </Link>
                     <Link href="https://github.com/Dominier" target="_blank" className="p-2 rounded-full hover:bg-white/60 hover:shadow-sm hover:-translate-y-0.5 transition-all opacity-80 hover:opacity-100">
-                        <Image src="/github.svg" alt="github icon" width={20} height={20} />
+                        <Image src="./github.svg" alt="github icon" width={20} height={20} />
                     </Link>
                 </div>          
             </div>
