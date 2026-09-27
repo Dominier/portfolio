@@ -1,18 +1,5 @@
 import { NavigationBar } from "@/components/ui/navbar";
 
-const LandingLayout = ({
-  children,
-}: {
-  children: React.ReactNode
-}) => {
-  return (
-    <main className="h-full overflow-auto">
-      <NavigationBar />
-      <div className="mx-auto max-w-screen-xl h-full w-full">
-        {children}
-      </div>
-    </main>
-  );
+export default function LandingLayout({ children }: { children: React.ReactNode }) {
+  return <div className="site-shell"><a href="#main-content" className="skip-link">Skip to content</a><NavigationBar /><main id="main-content">{children}</main></div>;
 }
-
-export default LandingLayout;

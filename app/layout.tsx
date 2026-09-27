@@ -1,22 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Nunito_Sans } from 'next/font/google'
-
-const nunito_sans = Nunito_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Timothy\'s Portfolio',
-  description: 'Software Engineering Student',
+  title: 'Timothy Le — Software Engineer',
+  description: 'Software engineering student at UC Irvine, focused on backend engineering, web development, and AI. Explore my work and experience.',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body className={nunito_sans.className}>{children}</body>
-    </html>
-  )
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return <html lang="en"><body>{children}</body></html>
 }
